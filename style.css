@@ -54,3 +54,18 @@ body {
     display: none;
 
 }
+@media screen and (max-width: 820px) {
+    .charger{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .charger{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .charger{
+        width: 95%;
+    }
+}
