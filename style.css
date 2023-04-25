@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    height: 90vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.charger {
+    width: 40%;
+    border: 2px solid white;
+    height: 200px;
+    position: relative;
+}
+
+.percentage {
+    height: 100%;
+    width: 1%;
+    background-color: rgb(11, 136, 95);
+}
+
+#perc {
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.manage {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.manage button {
+    background-color: transparent;
+    border: 1px solid #888;
+    width: 200px;
+    padding: 10px;
+    color: #888;
+    letter-spacing: 2px;
+}
+#status{
+    position: absolute;
+    bottom: 0;
+    color: rgba(136, 136, 136, 0.5);
+    z-index: 1;
+    display: none;
+
+}
